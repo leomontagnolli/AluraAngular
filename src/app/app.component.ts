@@ -6,5 +6,23 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'AluraAngular';
+  title = 'AluraaAngular';
+
+  fotos = [
+    {
+      url: "https://i.imgur.com/XtUfH1Z.jpg",
+      description : "Leao"
+    },
+    {
+      url: "https://i.imgur.com/XtUfH1Z.jpg",
+      description : "Leao"
+    },
+    {
+      url: "https://i.imgur.com/XtUfH1Z.jpg",
+      description : "Leao"
+    }
+
+  ];
+
+
 }
